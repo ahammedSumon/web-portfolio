@@ -1,15 +1,76 @@
-.name-highlight{
+body{
+    margin: 0px;
+}
+.orange-highlight{
     color: red;
 }
 .half-male{
     width: 40%;
     float: left;
-    margin-left: 2%;
-    padding-left: 1%;
+    margin-left: 3%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     font-size: larger;
 }
 .half-width img{
     width: 35%;
     float: right;
-    padding-right: 0.3%;
+    padding-right: 0.3pt;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(246, 247, 245);
+    background-image:linear-gradient(45deg,red,yellow);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.sumon img{
+    width: 500px;
+    float: left;
+    padding-right: 9%;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.dream-big{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+box-shadow: 10px 10px 40px gray;
+border-radius: 20px;
+height: 70%;
+background-color: white;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 25px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,yellow,rgb(13, 240, 100));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 9px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
